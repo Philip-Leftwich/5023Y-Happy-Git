@@ -21,11 +21,14 @@ library(DT)
 ```
 
 # Why Git? 
+
 Two reasons that we'll be most interested in (to start):
 
 - It's a great way to safely store organized versions of a project
 
 - It's ideal for data science collaborators who need to share & edit code together
+
+Watch [this video](https://www.youtube.com/watch?v=w3jLJU7DT5E) *before* or *after* today's session
 
 
 ## Some notes:
@@ -56,19 +59,29 @@ A couple of general tips:
 
 # PART 1. Fork & clone an existing repo on GitHub, make edits, push back
 
-a. Go to [github.com](https://github.com/) and log in (you need your own account - for now use your uea.ac.uk e-mail)
+a. Go to [github.com](https://github.com/) and log in (you need your own account - for sign up with your uea.ac.uk e-mail)
 
 b. In the Search bar, look for repo **Philip-Leftwich/5023Y-Happy-Git**
 
-c. Click on the repo name, and look out the existing repo structure
+c. Click on the repo name, and look at the existing repo structure
 
 d. **FORK** the repo
 
-e. Press Clone/download, copy the URL, and create a new version controlled project in RStudio (follow along with video)
+e. Press Clone/download, copy the URL, and create a new project from Git repository in RStudio (add your URL) 
+(*Note* you may be asked to enable Git and/or asked to provide your GitHub username and password)
+
+<p>&nbsp;</p>
+
+```{r github, echo=FALSE}
+knitr::include_graphics("Gitimg.png")
+```
 
 
-VIDEO
+```{r cloud, echo=FALSE}
+knitr::include_graphics("Rstudio_cloud.png")
+```
 
+<p>&nbsp;</p>
 
 f. Open the some_cool_animals.Rmd document, and the accompanying html 
 
@@ -127,7 +140,7 @@ e. Clone to create a connected R Project in RStudio
 
 f. Create a new R Markdown document
 
-g. Attach the {tidyverse},{palmerpenguins}, {DT}, and {plotly} packages in a hidden code chunk (include = FALSE)
+g. Attach the {tidyverse},{palmerpenguins} and {plotly} packages in a hidden code chunk (include = FALSE)
 
 h. Create an interactive plot of PalmerPenguins with {plotly}, showing the output but **not** the code or messages
 
@@ -144,6 +157,8 @@ penguin_graph <- ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_
 
 ggplotly(penguin_graph, tooltip = c("species"))
 ```
+
+
 
 
 i. Knit & save your .Rmd
