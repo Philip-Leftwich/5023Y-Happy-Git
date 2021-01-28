@@ -262,4 +262,5 @@ o. Check that changes are stored on GitHub
 
 **Make sure you finish all three exercises before next week to become a GitHub pro!!!!!!!!!**
 
+** Want to learn about all things GitHub and R? (https://happygitwithr.com/)
 
