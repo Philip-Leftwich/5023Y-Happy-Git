@@ -1,18 +1,19 @@
 ---
 title: "Some cool animal facts"
-author: "Allison Horst"
+author: "Philip Leftwich"
 output: html_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
-```
+
 
 ##### A note on this project:
 
-The organization of this document probably seems strange. That's because it's part of an entire multi-part lab for ESM 206, which students will create in multiple projects (but are combined here for easier sharing). Hence the weird unrelated pieces all put together in this project (students will create Parts 2 & 3 as separate projects).
+## This project developed from Allison Horst's very cool intro to GitHub. 
 
-[Link to the Lab 4 prompt](https://docs.google.com/document/d/1KX6_bKA8BOO0NdsUviVi0HCT-q9iTCtTYsS1dGNQJfU/edit?usp=sharing)
+```
+
 
 ### Cool animal fun facts {.tabset .tabset-fade}
 
@@ -59,4 +60,4 @@ The organization of this document probably seems strange. That's because it's pa
 ###
 
 ----------
-**Disclaimer:** This document is only for R Markdown & GitHub teaching purposes in ESM 206, Bren School of Environmental Science and Management (UCSB) 
+**Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
