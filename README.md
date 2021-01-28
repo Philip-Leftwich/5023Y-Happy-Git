@@ -1,3 +1,9 @@
-# myrepoR
+# 5023Y Happy Git
+
+# Introduction
+
+- Learn to fork & clone a repo to work with it locally in RStudio, make edits, & push back
+- Create a new repo from scratch, then work locally to update & push back
 testing second setup
-making a change form rstudio
+- Interact with GitHub classrooms
+
