@@ -45,7 +45,7 @@ A couple of general tips:
 
 - The best way to deal with merge conflicts is to avoid creating merge conflicts. This is what happens when two people pull a version, work on it separately and then try to push back to the repo *at the same time* Communicate with collaborators so you’re not all working on the same piece of code at the same time.
 
-# Learning outcomes
+# Exercises
 
 **PART 1.** Fork & Clone an existing repo
 
@@ -55,6 +55,14 @@ A couple of general tips:
 
 **END** Make sure you complete this worksheet it will be vital for submitting your second summative assignment. 
 
+
+## Learning outcomes
+
+- Become a master of reproducible research & version control with GitHub
+
+- Improve project structure
+
+- Write informative notes for collaborators & archiving
 
 
 # PART 1. Fork & clone an existing repo on GitHub, make edits, push back
@@ -73,12 +81,12 @@ e. Press Clone/download, copy the URL, and create a new project from Git reposit
 <p>&nbsp;</p>
 
 ```{r github, echo=FALSE}
-knitr::include_graphics("Gitimg.png")
+knitr::include_graphics("img/Gitimg.png")
 ```
 
 
 ```{r cloud, echo=FALSE}
-knitr::include_graphics("Rstudio_cloud.png")
+knitr::include_graphics("img/Rstudio_cloud.png")
 ```
 
 <p>&nbsp;</p>
@@ -122,6 +130,17 @@ k. On GitHub, refresh and see that files are updated. Cool! Now you’ve used so
 
 
 # PART 2. Create your own repo & version controlled R Project from scratch
+
+
+## "But I forgot how to code over Christmas!!!"
+
+Today we will have a bit of a play with tidyverse tools and plotting to refresh your memory! 
+
+Remember if your code doesn't run, it is usually a simple fix. Read the error message carefully and see how many of these bingo tiles you can pick up!
+
+```{r debug, echo=FALSE}
+knitr::include_graphics("img/debugging_bingo.jpg")
+```
 
 a. Go back to your GitHub account
 
@@ -256,7 +275,7 @@ ggplot(data = db_sub) +
 ```
 
 ```{r disease-graph, echo=FALSE}
-knitr::include_graphics("disease_graph.png")
+knitr::include_graphics("img/disease_graph.png")
 ```
 
 m. Use ggsave() to write your graph to a .png in the ‘final_graphs’ subfolder
