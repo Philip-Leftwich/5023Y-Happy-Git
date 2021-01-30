@@ -159,7 +159,7 @@ e. Clone to create a connected R Project in RStudio
 
 f. Create a new R Markdown document
 
-g. Attach the {tidyverse},{palmerpenguins} and {plotly} packages in a hidden code chunk (include = FALSE)
+g. Attach the {`tidyverse`},{`palmerpenguins`} and {`plotly`} packages in a hidden code chunk (include = FALSE)
 
 h. Create an interactive plot of PalmerPenguins with {plotly}, showing the output but **not** the code or messages
 
