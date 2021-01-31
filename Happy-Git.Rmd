@@ -1,15 +1,7 @@
 ---
-title: "Unit D Reproducible Research: Happy-Git"
-author: "Lecturer: Philip Leftwich, Module: UEA BIO 5023Y"
-output: 
-  html_document:
-    code_folding: hide
-    toc: true
-    toc_depth: 2
-    toc_float: true
-    highlight: pygments
-    css: ../lab.css
-link-citations: yes
+title: 'Unit D Reproducible Research: Happy-Git'
+author: 'Lecturer: Philip Leftwich, Module: UEA BIO 5023Y'
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
@@ -67,15 +59,15 @@ A couple of general tips:
 
 # PART 1. Fork & clone an existing repo on GitHub, make edits, push back
 
-a. Go to [github.com](https://github.com/) and log in (you need your own account - for sign up with your uea.ac.uk e-mail)
+**a.** Go to [github.com](https://github.com/) and log in (you need your own account - for sign up with your uea.ac.uk e-mail)
 
-b. In the Search bar, look for repo **Philip-Leftwich/5023Y-Happy-Git**
+**b.** In the Search bar, look for repo **Philip-Leftwich/5023Y-Happy-Git**
 
-c. Click on the repo name, and look at the existing repo structure
+**c.** Click on the repo name, and look at the existing repo structure
 
-d. **FORK** the repo
+**d.** **FORK** the repo
 
-e. Press Clone/download, copy the URL, and create a new project from Git repository in RStudio (add your URL) 
+**e.** Press Clone/download, copy the URL, and create a new project from Git repository in RStudio (add your URL) 
 (*Note* you may be asked to enable Git and/or asked to provide your GitHub username and password)
 
 <p>&nbsp;</p>
@@ -91,11 +83,11 @@ knitr::include_graphics("img/Rstudio_cloud.png")
 
 <p>&nbsp;</p>
 
-f. Open the some_cool_animals.Rmd document, and the accompanying html 
+**f.** Open the some_cool_animals.Rmd document, and the accompanying html 
 
-g. Add *your name* to the top of the document
+**g.** Add *your name* to the top of the document
 
-h. BUT WAIT. We have forgotten to add a great image and facts about a very important species - Baby Yoda, including an image 
+**h.** BUT WAIT. We have forgotten to add a great image and facts about a very important species - Baby Yoda, including an image 
 
 
 ## FACTS
@@ -114,9 +106,9 @@ knitr::include_graphics("some cool animals/Grogu.jpg")
 <p>&nbsp;</p>
 
 
-i. Once you’ve added Grogu, knit the Rmd document to update the html
+**i.** Once you’ve added Grogu, knit the Rmd document to update the html
 
-j. Stage, Commit & Push all files 
+**j.** Stage, Commit & Push all files 
 
 Staged - pick those files which you intend to bind to a commit
 
@@ -126,7 +118,7 @@ Push - "Pushes" your changes from the local repo to the remote repo on GitHub.
 
 <p>&nbsp;</p>
 
-k. On GitHub, refresh and see that files are updated. Cool! Now you’ve used something someone else has created, customized it, and saved your updated version. 
+**k.** On GitHub, refresh and see that files are updated. Cool! Now you’ve used something someone else has created, customized it, and saved your updated version. 
 
 
 # PART 2. Create your own repo & version controlled R Project from scratch
@@ -142,28 +134,28 @@ Remember if your code doesn't run, it is usually a simple fix. Read the error me
 knitr::include_graphics("img/debugging_bingo.jpg")
 ```
 
-a. Go back to your GitHub account
+**a.** Go back to your GitHub account
 
-b. Click on the plus sign (upper right, by your profile pic/icon) to create a new repository
+**b.** Click on the plus sign (upper right, by your profile pic/icon) to create a new repository
 
-c. Name the repo 5023Y-second-repo-yourinitials (like 5023Y-second-repo-PL), and select to initialize with a ReadMe
+**c.** Name the repo 5023Y-second-repo-yourinitials (like 5023Y-second-repo-PL), and select to initialize with a ReadMe
 
-d. Edit the ReadMe (however you want - notice that markdown formatting works & you can see a preview) & commit
+**d.** Edit the ReadMe (however you want - notice that markdown formatting works & you can see a preview) & commit
 
 Some tips: 
 
 Include a title, introduction/objectives
 
 
-e. Clone to create a connected R Project in RStudio
+**e.** Clone to create a connected R Project in RStudio
 
-f. Create a new R Markdown document
+**f.** Create a new R Markdown document
 
-g. Attach the {`tidyverse`},{`palmerpenguins`} and {`plotly`} packages in a hidden code chunk (include = FALSE)
+**g.** Attach the {`tidyverse`},{`palmerpenguins`} and {`plotly`} packages in a hidden code chunk (include = FALSE)
 
-h. Create an interactive plot of PalmerPenguins with {plotly}, showing the output but **not** the code or messages
+**h.** Create a plot of PalmerPenguins, showing the output but **not** the code or messages
 
-```{r}
+```{r, message =FALSE, warning=FALSE}
 penguin_graph <- ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_mm)) +
   geom_point(aes(size = body_mass_g, 
                  color = species),
@@ -173,43 +165,51 @@ penguin_graph <- ggplot(data = penguins, aes(x = bill_length_mm, y = bill_depth_
   labs(x = "bill length (mm)",
        y = "bill depth mm",
        title = "Penguin measurements")
+penguin_graph
 
+### remember to not show the code in your RMD, you must include echo=FALSE in you code chunk 
+### ```{r, echo=FALSE}
+```
+
+**i.** Make your plot interactive with the `ggplotly` function
+
+```{r}
 ggplotly(penguin_graph, tooltip = c("species"))
 ```
 
 
 
 
-i. Knit & save your .Rmd
+**j.** Knit & save your .Rmd
 
-j. Stage, commit & push back to GitHub
+**k.** Stage, commit & push back to GitHub
 
 
 # PART 3. GitHub Classroom enabled R Projects with subfolders
 
 BLURB ON CLASSROOM
 
-a. Follow this [invite link](https://classroom.github.com/a/JS2r62wD)
+**a.** Follow this [invite link](https://classroom.github.com/a/JS2r62wD)
 
-b. You will be invited to sign-in to Github (if not already) & to join the UEABIO organisation
+**b.** You will be invited to sign-in to Github (if not already) & to join the UEABIO organisation
 
-c. Clone your assignment to work locally in RStudio
+**c.** Clone your assignment to work locally in RStudio
 
-d. In your local project folder, create subfolders ‘data’ and ‘final_graphs’ (**Note** use the dir.create commands in the console)
+**d.** In your local project folder, create subfolders ‘data’ and ‘final_graphs’ (**Note** use the dir.create commands in the console)
 
-e. Drop the file disease_burden.csv into the ‘data’ subfolder (**Note** unlike in Bash there is no base R command to move files so do this using the RStudio pane)
+**e.** Drop the file disease_burden.csv into the ‘data’ subfolder (**Note** unlike in Bash there is no base R command to move files so do this using the RStudio pane)
 
-f. Open a new .R script
+**f.** Open a new .R script
 
-g. Attach the {tidyverse} and {janitor} package
+**g.** Attach the {tidyverse} and {janitor} package
 
-h. Read in the disease_burden.csv data
+**h.** Read in the disease_burden.csv data
 
 This is a file look at the death rate for every country in the world across four decades.
 
-i. Stage, commit & push at this point - notice that the empty folder ‘final_graphs’ doesn’t show up (won’t commit an empty folder)
+**i.** Stage, commit & push at this point - notice that the empty folder ‘final_graphs’ doesn’t show up (won’t commit an empty folder)
 
-j. Back in the script, write a short script to read and clean the data. 
+**j.** Back in the script, write a short script to read and clean the data. 
 
 Use %>% and `filter` to pull out "United States", "Japan", "Afghanistan"& "Somalia"
 
@@ -236,7 +236,7 @@ db_sub <- db %>%
 ```
 
 
-k. Make a ggplot plotting the deaths per 100K by country across the four decades
+**k.** Make a ggplot plotting the deaths per 100K by country across the four decades
 
 HINT - use geom_line() and remember to separate countries by colour
 
@@ -251,7 +251,7 @@ ggplot(data = db_sub) +
 ```
 
 
-l. Update your graph with direct labels (using `annotate`) and vertical or horizontal lines with `geom_vline` or `geom_hline`
+**l.** Update your graph with direct labels (using `annotate`) and vertical or horizontal lines with `geom_vline` or `geom_hline`
 
 ```{r, eval=FALSE}
 # Graph
@@ -278,16 +278,16 @@ ggplot(data = db_sub) +
 knitr::include_graphics("img/disease_graph.png")
 ```
 
-m. Use ggsave() to write your graph to a .png in the ‘final_graphs’ subfolder
+**m.** Use ggsave() to write your graph to a .png in the ‘final_graphs’ subfolder
 
 
 ```{r eval=FALSE}
 ggsave(("final_graphs/disease_graph.png"), width = 5, height = 3)
 ```
 
-n. Save, stage, commit & push 
+**n.** Save, stage, commit & push 
 
-o. Check that changes are stored on GitHub
+**o.** Check that changes are stored on GitHub
 
 
 (**NOTE** this will be in your organisations rather than repos)
