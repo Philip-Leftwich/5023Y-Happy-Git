@@ -1,7 +1,21 @@
 ---
 title: 'Unit D Reproducible Research: Happy-Git'
 author: 'Lecturer: Philip Leftwich, Module: UEA BIO 5023Y'
-output: pdf_document
+output:
+  html_document:
+    code_folding: hide
+    toc: yes
+    toc_depth: 2
+    toc_float: yes
+    highlight: pygments
+    css: css/lab.css
+  pdf_document:
+    toc: yes
+    toc_depth: '2'
+  word_document:
+    toc: yes
+    toc_depth: '2'
+link-citations: yes
 ---
 
 ```{r setup, include=FALSE}
@@ -296,5 +310,5 @@ ggsave(("final_graphs/disease_graph.png"), width = 5, height = 3)
 
 **Make sure you finish all three exercises before next week to become a GitHub pro!!!!!!!!!**
 
-** Want to learn about all things GitHub and R? (https://happygitwithr.com/)
+**Want to learn about all things GitHub and R?**(https://happygitwithr.com/)
 
