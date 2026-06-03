@@ -54,6 +54,17 @@ execute:
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
+#### Manul (*Otocolobus manul*)
+
+![Photo: © toursmongolia](img/manul.jpg)
+
+##### Manul fun facts (from [Smithsonian's National Zoo](https://nationalzoo.si.edu/animals/pallas-cat) & [WIRED](https://www.wired.com/2014/08/pallas-cat-facts/)):
+
+- Their scientific name *Otocolobus manul* comes from Greek for "ugly-eared"
+- They have the longest and densest fur of any wild cat species, nearly twice as long on their belly as on their back
+- Unlike most cats, their pupils contract into **circles** (not vertical slits)
+- Listed as **Least Concern** on the IUCN Red List, but population is declining and highly fragmented
+
 :::
 
 ----------
