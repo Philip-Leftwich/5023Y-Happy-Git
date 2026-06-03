@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Philip Leftwich, Sara Wang"
 format: html
 execute:
   echo: true
@@ -53,6 +53,16 @@ execute:
 - Can rotate their hind feet 180 degrees to climb better
 - They are not endangered, just very elusive
 - Closely related to raccoons
+
+#### Rock pigeon (*Columba livia*)
+
+![Photo: via naturemappingfoundation.org](img/pigeon.jpg)
+
+##### Rock pigeon fun facts (from my brain):
+- One of the few animal species that passes the mirror test
+- Part of the only avian order (*Columbiformes*) that can drink water via suction
+- Underappreciated
+- Make very good pets
 
 :::
 
