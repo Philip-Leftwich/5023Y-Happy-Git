@@ -1,3 +1,4 @@
+Barbara G.
 ---
 title: "Some cool animal facts"
 author: "Philip Leftwich"
@@ -13,6 +14,19 @@ execute:
 ### Cool animal fun facts
 
 ::: {.panel-tabset}
+
+#### DOGS
+
+![Happy dog enjoying the nature](img/happy.jpg)
+
+
+### 3 fun facts about dogs (from [American Kennel Club](https://www.akc.org/expert-advice/lifestyle/dog-facts/)):
+
+1. A dog’s nose print is unique, much like a person’s fingerprint.
+2. Their sense of smell is legendary. Their nose has as many as 300 million receptors.
+3. Dogs are among a small group of animals who show voluntary unselfish kindness towards others without any reward.
+
+
 
 #### SHARKS!!!
 
@@ -53,6 +67,9 @@ execute:
 - Can rotate their hind feet 180 degrees to climb better
 - They are not endangered, just very elusive
 - Closely related to raccoons
+
+
+
 
 :::
 
