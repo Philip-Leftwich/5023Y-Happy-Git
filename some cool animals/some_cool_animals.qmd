@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Philip Leftwich, Philippe Lehmann"
 format: html
 execute:
   echo: true
@@ -54,7 +54,18 @@ execute:
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
-:::
 
+#### Octopus
+
+![Common octopus (*Octopus vulgaris*). Photo: Albert Kok,](img/octopus.jpg)
+
+##### Octopus fun facts:
+
+- Fits through anything that is larger than it's beak
+- Most of their neurons are in their arms (arm can taste, touch on it's own, without waiting for the brain)
+- Have three hearts and blue blood (inc)
+
+
+:::
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
