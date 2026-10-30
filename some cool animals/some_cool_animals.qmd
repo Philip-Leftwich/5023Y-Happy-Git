@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Bruno Gingras"
 format: html
 execute:
   echo: true
@@ -55,6 +55,10 @@ execute:
 - Closely related to raccoons
 
 :::
+
+##### Stieglitz
+
+![Photo: Wikipedia](img/stieglitz.jpg)
 
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
