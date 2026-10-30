@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Carlos Viquez Zamora"
 format: html
 execute:
   echo: true
@@ -53,6 +53,15 @@ execute:
 - Can rotate their hind feet 180 degrees to climb better
 - They are not endangered, just very elusive
 - Closely related to raccoons
+
+#### Tilcayo
+
+![Photo: Fernando Faciole/National Geographic](img/Tilcayo.jpg)
+##### Tilcayo fun facts (from [NationalGeographic.org](https://news.nationalgeographic.org/photos-new-wild-cat-species/)):  
+
+- This year's cutest discovered specie
+- First new discovered wild cat in over a century
+- Smaller than an average house cat
 
 :::
 
