@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Will Perkins"
 format: html
 execute:
   echo: true
@@ -13,6 +13,17 @@ execute:
 ### Cool animal fun facts
 
 ::: {.panel-tabset}
+
+#### WOMBATS!!!!
+
+![A cute little wombat on a stroll through the bush. Photographer: Steve Parish](img/WOMBAT.jpg)
+
+Some great wombat facts (from [Rainforest Nature Park](https://www.rainforest.com.au/wombat-facts/)):
+
+- Wombats make square poo!!
+- Wombats use cartilagenous and bony plating in their butts to block predators from entering their burrows
+- Wombats front teeth never stop growing!
+
 
 #### SHARKS!!!
 
