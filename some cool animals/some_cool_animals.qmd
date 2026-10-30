@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Philip Leftwich & Linde Wieringa"
 format: html
 execute:
   echo: true
@@ -54,7 +54,18 @@ execute:
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
+#### Tree kangeroo
+
+![Photo: Courtesy of CM Zoo](img/TreeKangeroo.jpg)
+
+##### Tree kangeroo fun facts: (From [A-Z-animals.com](https://a-z-animals.com/blog/10-incredible-tree-kangaroo-facts/))
+
+- There are 14 known species of tree kangeroo.
+- Tree kangeroos are the only macropod that live where their ancestors did.
+- Tree kangeroos lick themselves to stay cool
+
 :::
+
 
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
